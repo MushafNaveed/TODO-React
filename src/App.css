@@ -1,0 +1,119 @@
+
+
+.container-fluid {
+  background-color: var(--white-color);
+  width: 100%;
+  height: 100vh;
+}
+
+h6{
+  font-size: 15px;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container-fluid h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: var(--Blue-color);
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.container-fluid h1 span {
+  color: var(--Orange-color);
+}
+
+.Box {
+  width: 410px;
+  height: 400px;
+  background-color: var(--Blue-color);
+  border-radius: 5px;
+  overflow: auto;
+  scrollbar-width: thin; 
+  scrollbar-color: var(--Red-color) var(--Blue-color);
+}
+
+.Box .input-group {
+  padding: 10px;
+}
+
+.Box .input-group input {
+  background-color: transparent;
+  border: 3px solid var(--Red-color);
+  border-radius: 0;
+  color: var(--white-color);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  outline: none;
+  font-size: 0.8rem;
+}
+
+
+
+
+.Box .input-group input::placeholder {
+  color: var(--white-color);
+}
+
+.Box .input-group button {
+  border-radius: 0;
+  background-color: var(--Red-color);
+  border: none;
+  color: var(--white-color);
+  outline: none;
+}
+
+.Box-item {
+  width: 380px;
+  margin: 10px;
+  height: 50px;
+  background-color: var(--Orange-color);
+  border-radius: 5px;
+}
+
+
+.BoxItem-Data {
+  padding: 5px;
+  color: var(--white-color);
+}
+
+.BoxItem-Data .CheckBox-Data input {
+  background-color: var(--Orange-color);
+  font-size: 30px;
+}
+
+.Icons i{
+  font-size: 15px;
+  margin: 5px;
+  padding: 5px;
+  color: var(--Red-color);
+}
+
+.Box-item .BoxItem-Data .ToDo-Data span{
+    font-size: 10px;
+    color: var(--Blue-color);
+    position: relative;
+    bottom: 14px;
+}
+
+.Completed{
+    text-decoration: line-through;
+    color: black;
+
+}
+
+.InputSave{
+  background-color: var(--Orange-color);
+  /* border: 3px solid var(--Blue-color); */
+  color: var(--white-color);
+  border: none;
+  outline: none;
+}
+
+.SaveBtn{
+  background-color: transparent;
+  color: var(--Red-color);
+  font-size: 20px;
+  border: none;
+}
